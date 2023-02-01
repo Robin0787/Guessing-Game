@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Guessing Game</title>
+    <link rel="shortcut icon" href="./dice-d6-solid.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-title">
+          <i class="fa-solid fa-dice-d6 icon"></i>
+          <h1>Guessing Game</h1>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-field">
+              <label for="Gussing number">Guess a Number between 1-5 : </label>
+              <input type="number" min="1" max="5" />
+            </div>
+            <div class="button">
+              <button type="submit">Check Result</button>
+            </div>
+          </form>
+          <div class="card-footer">
+            <p id="p1"></p>
+            <p id="p2"></p>
+            <p id="p3"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

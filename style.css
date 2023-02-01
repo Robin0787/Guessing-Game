@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.card {
+  color: white;
+  width: 35rem;
+  height: 30rem;
+  background-color: rgb(86, 145, 255);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(114, 114, 114),
+    -0.1rem 0 0.1rem rgb(165, 165, 165);
+}
+.card-footer {
+  padding: 20px;
+}
+
+.card-title {
+  text-align: center;
+  margin: 10px;
+}
+.icon {
+  color: greenyellow;
+  font-size: 4rem;
+  margin: 20px 0 20px;
+}
+.form-field {
+  margin-bottom: 1rem;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.form-field > label {
+  font-size: larger;
+  margin-left: 40px;
+}
+input {
+  border: none;
+  border: 0.1rem;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 30%;
+}
+input:focus {
+  outline: 3px solid black;
+}
+
+.button {
+  text-align: center;
+}
+button {
+  border: none;
+  border: 0.1rem;
+  border-radius: 0.6rem;
+  padding: 0.8rem;
+  font: bold;
+  background-color: #160086;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+button:hover {
+  background-color: #541257;
+}
+
+p {
+  text-align: center;
+}
+.largeText {
+  font-size: 18px;
+  color: white;
+}
+
+#p1,
+#p2 {
+  font-size: 18px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.wrong {
+  color: yellow;
+  font-weight: bold;
+}
+.right {
+  color: aqua;
+  font-weight: bold;
+}
